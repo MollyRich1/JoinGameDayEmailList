@@ -1,1 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Michigan Gameday Email List</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #00274c 0%, #ffcb05 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            background: #00274c;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffcb05;
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        h1 {
+            color: #00274c;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #00274c;
+            font-weight: bold;
+        }
+
+        input[type="email"],
+        input[type="tel"] {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="email"]:focus,
+        input[type="tel"]:focus {
+            outline: none;
+            border-color: #ffcb05;
+        }
+
+        .submit-btn {
+            background: linear-gradient(45deg, #00274c, #ffcb05);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .submit-btn:active {
+            transform: translateY(0);
+        }
+
+        .success-message {
+            background: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            display: none;
+        }
+
+        .error-message {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            display: none;
+        }
+
+        .footer {
+            margin-top: 30px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .google-form-container {
+            margin: 30px 0;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-link-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .form-link-container p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .form-link-btn {
+            display: inline-block;
+            background: linear-gradient(45deg, #00274c, #ffcb05);
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: transform 0.2s ease;
+        }
+
+        .form-link-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">M</div>
+        <h1>Join the Michigan Gameday Email List</h1>
+        <p class="subtitle">Stay updated on the latest University of Michigan gameday merchandise and exclusive offers!</p>
+        
+        <!-- Google Form Embed -->
+        <div class="google-form-container">
+            <!-- Replace this iframe src with your actual Google Form embed URL -->
+            <iframe 
+                src="https://docs.google.com/forms/d/e/1FAIpQLScJqUbhLpyE1dvHunBIn93bKwsVsTHklNm5QVCEhCGkE21OMw/viewform?embedded=true"
+                width="100%" 
+                height="400" 
+                frameborder="0" 
+                marginheight="0" 
+                marginwidth="0">
+                Loading…
+            </iframe>
+        </div>
+        
+        <!-- Alternative: Direct link to Google Form -->
+        <div class="form-link-container">
+            <p>Or click the button below to open the form in a new tab:</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScJqUbhLpyE1dvHunBIn93bKwsVsTHklNm5QVCEhCGkE21OMw/viewform?embedded=true" 
+               target="_blank" 
+               class="form-link-btn">
+                Open Form in New Tab
+            </a>
+        </div>
+        
+        <div class="footer">
+            <p>Go Blue! 〽️</p>
+        </div>
+    </div>
+
+    <!-- Google Forms handles all the form submission automatically -->
+    <script>
+        // Optional: Add analytics or tracking here if needed
+        console.log('Michigan Gameday Email List page loaded');
+    </script>
+</body>
+</html>
